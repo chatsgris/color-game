@@ -6,11 +6,11 @@
 	<link rel="stylesheet" href="colorgame.css">
 </head>
 <body>
-	<div id="header">The Great <span id="rgbHeader">RGB(0, 0, 0)</span> Guessing Game</div>
+	<div id="header">The Great <span id="rgbHeader">RGB(<span id="rgb">0, 0, 0</span>)</span> Guessing Game</div>
 	<table id="secondHeader" align="center">
 		<tr>
-			<th>New Colors</th>
-			<th>Easy Hard</th>
+			<th id="newColors">New Colors</th>
+			<th><span id="easy">Easy</span> <span id="hard">Hard</span></th>
 		</tr>
 	</table>
 	<table id="squares" align="center">
@@ -25,5 +25,7 @@
 			<td></td>
 		</tr>
 	</table>
+
+	<script type="text/javascript" src="colorgame.js"></script>
 </body>
 </html>
